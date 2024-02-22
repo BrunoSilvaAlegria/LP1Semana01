@@ -6,7 +6,22 @@ namespace ManyStrings
     {
         static void Main(string[] args)
         
-        {   // String com caracteres de escape
+        {   // Formatação de valores
+
+            double xx = 1.23456;
+            int ii = 19;
+
+            string s1 = $"Número real com duas casas decimais: {xx:f2}";
+            string s2 = $"Percentagem com uma casa decimal: {xx:p1}";
+            Console.WriteLine(s1);
+            Console.WriteLine(s2);
+            
+            string s3 = $"O valor hexadecimal de {ii} é {ii:x}";
+            string s4 = $"O valor em moeda de {ii} é {ii:c}";
+            Console.WriteLine(s3);
+            Console.WriteLine(s4);
+            
+            // String com caracteres de escape
 
             string str = "Olá, isto é uma plica -> \',\n\tIsto foi um enter e um tab,\ne já agora observe uma barra invertida -> \\";
             Console.WriteLine(str);
