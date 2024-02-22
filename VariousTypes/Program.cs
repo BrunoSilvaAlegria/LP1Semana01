@@ -35,7 +35,7 @@ namespace VariousTypes
             Console.WriteLine($"Valor do tipo char -> {vlr_char}");
 
 
-            //Variáveis do tipo char com diferentes valores Unicode
+            // Variáveis do tipo char com diferentes valores Unicode
 
             char plane = '\u2708';
             Console.WriteLine($"Valor do tipo char -> {plane}");
@@ -47,9 +47,16 @@ namespace VariousTypes
             Console.WriteLine($"Valor do tipo char -> {write}");
 
 
-        }
-           
-            
+            // Variáveis reais com literais adequados
 
+            float num_flt = 0.0026584f;
+            Console.WriteLine($"Valor do tipo float -> {num_flt}");
+
+            double num_dbl = 0.000000000000001;
+            Console.WriteLine($"Valor do tipo double -> {num_dbl}");
+
+            decimal num_dcm = 0.00000000000000000000000027m;
+            Console.WriteLine($"Valor do tipo float -> {num_dcm}");
+        }
     }
 }
