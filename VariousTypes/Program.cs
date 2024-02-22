@@ -49,13 +49,13 @@ namespace VariousTypes
 
             // Variáveis reais com literais adequados
 
-            float num_flt = 0.0026584f;
+            float num_flt = 0.002584f;
             Console.WriteLine($"Valor do tipo float -> {num_flt}");
 
             double num_dbl = 0.000000000000001;
             Console.WriteLine($"Valor do tipo double -> {num_dbl}");
 
-            decimal num_dcm = 0.00000000000000000000000027m;
+            decimal num_dcm = 0.00000000000000000000027m;
             Console.WriteLine($"Valor do tipo float -> {num_dcm}");
         }
     }
