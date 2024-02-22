@@ -21,6 +21,28 @@ namespace ManyStrings
             string frase = "Uma aspa \" e um símbolo de gelo \u2746";
             Console.WriteLine(frase);
 
+
+            // Strings concatenadas
+
+            string c1 = "a";
+            int c2 = 2;
+            string c3 = c1 + c2;
+            Console.WriteLine(c3);
+
+            float c4 = 3.333f;
+            string c5 = "\u2573";
+            string c6 = "Junção" + " de várias " + "strings: " + c4 + c5;
+            Console.WriteLine(c6);
+
+            c6 += c3;
+            Console.WriteLine(c6);
+
+            // Strings interpoladas
+
+            string nova = $"O valor de um float é {c4} e de um int é {c2}";
+            string nv_str = $"{c2} + {c4} é igual a {c2+c4}";
+            Console.WriteLine(nova);
+            Console.WriteLine(nv_str);
         }
     }
 }
