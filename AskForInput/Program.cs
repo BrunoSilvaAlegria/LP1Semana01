@@ -16,6 +16,8 @@ namespace AskForInput
             string str2 = Console.ReadLine();
             float num = float.Parse(str2);
 
+            Console.WriteLine($"Resultado da soma dos valores:{inteiro + num}");
+
 
         
 
