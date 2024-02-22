@@ -11,7 +11,7 @@ namespace ManyStrings
             double xx = 1.23456;
             int ii = 19;
 
-            string s1 = $"Número real com duas casas decimais: {xx:f2}";
+            string s1 = $"Número real com duas casas decimais:{xx,5:f2}";
             string s2 = $"Percentagem com uma casa decimal: {xx:p1}";
             Console.WriteLine(s1);
             Console.WriteLine(s2);
