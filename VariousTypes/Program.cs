@@ -57,6 +57,16 @@ namespace VariousTypes
 
             decimal num_dcm = 0.00000000000000000000027m;
             Console.WriteLine($"Valor do tipo float -> {num_dcm}");
+
+
+            // Variáveis booleanas
+
+            bool x = true;
+            Console.WriteLine($"Variável do tipo booleano com valor verdadeiro -> {x}");
+
+            bool y = false;
+            Console.WriteLine($"Variável do tipo booleano com valor falso -> {y}");
+
         }
     }
 }
