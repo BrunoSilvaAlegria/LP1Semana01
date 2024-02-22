@@ -5,6 +5,7 @@ namespace VariousTypes
     class Program
     {
         static void Main(string[] args)
+        
         {   // Variáveis inteiras com literais adequados
             sbyte num_sb = -69;
             Console.WriteLine($"Valor do tipo sbyte -> {num_sb}");
@@ -34,6 +35,16 @@ namespace VariousTypes
             Console.WriteLine($"Valor do tipo char -> {vlr_char}");
 
 
+            //Variáveis do tipo char com diferentes valores Unicode
+
+            char plane = '\u2708';
+            Console.WriteLine($"Valor do tipo char -> {plane}");
+
+            char correct = '\u2714';
+            Console.WriteLine($"Valor do tipo char -> {correct}");
+
+            char write = '\u270d';
+            Console.WriteLine($"Valor do tipo char -> {write}");
 
 
         }
