@@ -12,6 +12,7 @@ namespace CentraPelaVirgula
             string str2 = Console.ReadLine();
             string str3 = Console.ReadLine();
             string str4 = Console.ReadLine();
+            
         }
     }
 }

@@ -20,11 +20,12 @@ namespace ManyStrings
             string s4 = $"O valor em moeda de {ii} é {ii:c}";
             Console.WriteLine(s3);
             Console.WriteLine(s4);
-            
+
             // String com caracteres de escape
 
-            string str = "Olá, isto é uma plica -> \',\n\tIsto foi um enter e um tab,\ne já agora observe uma barra invertida -> \\";
-            Console.WriteLine(str);
+            string str = "Olá, isto é uma plica->\',\n\tIsto foi um enter e um";
+            string str2 = " tab,\ne já agora observe uma barra invertida -> \\";
+            Console.WriteLine(str + str2);
 
             // String com caracteres de Unicode
 
