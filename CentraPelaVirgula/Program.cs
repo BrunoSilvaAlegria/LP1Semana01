@@ -13,7 +13,7 @@ namespace CentraPelaVirgula
             string str3 = Console.ReadLine();
             string str4 = Console.ReadLine();
 
-            //Conversão das strings para número real(float)
+            // Conversão das strings para número real(float)
             float num1 = float.Parse(str1);
             float num2 = float.Parse(str2);
             float num3 = float.Parse(str3);
