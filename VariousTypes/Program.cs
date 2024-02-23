@@ -67,6 +67,11 @@ namespace VariousTypes
             bool y = false;
             Console.WriteLine($"Variável do tipo booleano com valor falso -> {y}");
 
+            bool z = 4 > 3;
+            Console.WriteLine($"Operação com valor verdadeiro -> {z}");
+
+            bool w = 5 < 0;
+            Console.WriteLine($"Operação com valor falso -> {w}");
         }
     }
 }
