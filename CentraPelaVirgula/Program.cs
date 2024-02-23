@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace CentraPelaVirgula
 {
@@ -6,6 +7,10 @@ namespace CentraPelaVirgula
     {
         static void Main(string[] args)
         {
+            CultureInfo.DefaultThreadCurrentCulture = 
+            CultureInfo.InvariantCulture;
+
+
             // Pedido dos 4 números reais
             Console.WriteLine("Por favor insira quatro números reais."); 
             string str1 = Console.ReadLine();
